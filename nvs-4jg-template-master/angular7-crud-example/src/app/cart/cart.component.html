@@ -1,0 +1,24 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+  <div *ngFor="let element of cart">
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          {{element.produktName}}
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Anzahl: {{element.anzahl}}</li>
+          <li class="list-group-item">Preis: {{element.preis}}</li>
+          <li class="list-group-item">Gesamter Preis: {{element.anzahl * element.preis}}</li>
+          <button btn class="btn btn-danger"  (click)="delete(element)">Löschen</button>
+        </ul>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+  Gesamtpreis: {{gesamtPreis}}

@@ -1,0 +1,6 @@
+com\devglan\service\impl\UserServiceImplTest.class
+com\devglan\dao\OrderDaoTest.class
+com\devglan\service\impl\OrderServiceImplTest.class
+com\devglan\controller\AuthenticationControllerIT.class
+com\devglan\service\impl\ProductServiceTest.class
+com\devglan\dao\UserDaoTest.class
